@@ -11,12 +11,20 @@ type InputProps = {
 
 const Input: React.FC<InputProps> = ({Nomes, Categorias, onPesquisaChange, onFiltroChange}) => {
 
+    const handleSearchClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+        event.preventDefault();
+        const input = document.querySelector<HTMLInputElement>(".InputPesquisa");
+        if(input) {
+            onPesquisaChange(input.value)
+        }
+    };
+
     return(
         <>
         <div id="InputContainer">
             <form>
-                <input className="InputPesquisa" placeholder="Buscar por empresas e categorias" type="text" onChange={(e) => onPesquisaChange(e.target.value)}/>
-                <button className="search" type="button">
+                <input className="InputPesquisa" placeholder="Buscar por empresas e categorias" type="text"/>
+                <button className="search" type="button" onClick={handleSearchClick}>
                     <img className="SearchIcon" src={Searchicon} alt="Icone de Pesquisa" />
                 </button>
             </form>
