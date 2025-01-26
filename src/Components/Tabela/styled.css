@@ -54,70 +54,106 @@ td,th {
     font-size: 16px;
     text-align: center;
     color: #000;
-    font-family: 'Chivo' sans-serif;
 }
 
 
-
-@media (max-width: 768px) {
+@media screen and (max-width: 1300px) {
     
     #ContainerTabela{
         width: 60%;
         height: calc(80vh - 10px);
         margin: auto;
     }
-}
-@media (max-width: 768px){
+
+
     .Tabelamae {
         width: 100%;
     }
-}
-@media (max-width: 768px){
+
     .Cabecalhotabela {
         height: 50px;    
     }
-}
 
-@media (max-width: 768px) {
+
+
     .Contato{
         width: 90px;
         height: 40px;
         border-radius: 8px;
         gap: 10px;
     }
-}
-@media (max-width: 768px){   
+
+ 
     tr {
         background-color: #F1F1F1;
     }
-}
 
-@media (max-width: 768px){
+
+
     td {
         padding: 15px;
         font-size: 16px;
     }
 }
 
-@media (max-width: 360px) {
+
+@media screen and (max-width: 768px) {
+    
+    #ContainerTabela{
+        width: 60%;
+        height: calc(80vh - 10px);
+        margin: auto;
+    }
+
+
+    .Tabelamae {
+        width: 100%;
+    }
+
+    .Cabecalhotabela {
+        height: 50px;    
+    }
+
+
+
+    .Contato{
+        width: 90px;
+        height: 40px;
+        border-radius: 8px;
+        gap: 10px;
+    }
+
+ 
+    tr {
+        background-color: #F1F1F1;
+    }
+
+
+
+    td {
+        padding: 15px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 360px) {
     
     #ContainerTabela{
         width: 85%;
         height: calc(60vh - 10px);
         margin: auto;
     }
-}    
-@media (max-width: 360px) {
+   
+
     .Tabelamae {
         width: 100%;
     }
-}
-@media (max-width: 360px) {
+
     .Cabecalhotabela {
         height: 50px;    
     }
-}
-@media (max-width: 360px) {
+
+
     .Contato{
         width: 50px;
         height: 20px;
@@ -125,13 +161,12 @@ td,th {
         gap: 10px;
         font-size: 12px;
     }
-}
-@media (max-width: 360px) {  
+
     tr {
         background-color: #F1F1F1;
     }
-}
-@media (max-width: 360px) { 
+
+
     td {
         padding: 15px;
         font-size: 15px;

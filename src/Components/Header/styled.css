@@ -27,27 +27,23 @@
     color: #fff;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1300px) {
     #logo {
         width: 90px;
         height: 60px;
         margin: 10px 20px;
     }
-}
-@media (max-width: 768px) {
+
     .spacebar {
         flex-direction: row;
         height: auto;
         padding: 5px 0;
 
     }
-}
-@media (max-width: 768px) {
     .barra {
         font-size: 60px;
     }
-}
-@media (max-width: 768px) {
+
     .NomeProjeto{
         font-size: 35px;
         margin: 20px 15px;
@@ -55,27 +51,44 @@
     }
 }
 
-@media (max-width: 360px) {
+@media screen and (max-width: 768px) {
+    #logo {
+        width: 90px;
+        height: 60px;
+        margin: 10px 20px;
+    }
+
+    .spacebar {
+        flex-direction: row;
+        height: auto;
+        padding: 5px 0;
+
+    }
+    .barra {
+        font-size: 60px;
+    }
+
+    .NomeProjeto{
+        font-size: 35px;
+        margin: 20px 15px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
     #logo {
         width: 80px;
         height: 25px;
         margin: 30px 10px;
     }
-}
-@media (max-width: 360px) {
     .spacebar {
         flex-direction: row;
         height: 80px;
         padding: 2px 0;
     }
-}
-@media (max-width: 360px) {
     .barra {
         font-size: 60px;
     }
-}
-
-@media (max-width: 360px) {
     .NomeProjeto{
         font-size: 25px;
         margin: 30px 15px;
