@@ -27,6 +27,7 @@
 .Contato{
     width: 110px;
     height: 40px;
+    font-size: 16px;
     color: #fff;
     background-color: #CA1621;
     border: none;
@@ -44,7 +45,7 @@ tr {
 
 }
 
-td,td {
+td,th {
     width: 33.33%;
     white-space: nowrap;
     overflow: hidden;
@@ -65,63 +66,74 @@ td,td {
         height: calc(80vh - 10px);
         margin: auto;
     }
-    
+}
+@media (max-width: 768px){
     .Tabelamae {
         width: 100%;
     }
-    
+}
+@media (max-width: 768px){
     .Cabecalhotabela {
         height: 50px;    
     }
-    
+}
+
+@media (max-width: 768px) {
     .Contato{
         width: 90px;
         height: 40px;
         border-radius: 8px;
         gap: 10px;
     }
-    
-    
+}
+@media (max-width: 768px){   
     tr {
         background-color: #F1F1F1;
     }
-    
+}
+
+@media (max-width: 768px){
     td {
         padding: 15px;
         font-size: 16px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
     
     #ContainerTabela{
         width: 85%;
         height: calc(60vh - 10px);
         margin: auto;
     }
-    
+}    
+@media (max-width: 360px) {
     .Tabelamae {
         width: 100%;
     }
-    
+}
+@media (max-width: 360px) {
     .Cabecalhotabela {
         height: 50px;    
     }
-    
+}
+@media (max-width: 360px) {
     .Contato{
-        width: 70px;
-        height: 40px;
+        width: 50px;
+        height: 20px;
         border-radius: 8px;
         gap: 10px;
+        font-size: 12px;
     }
-    
-    
+}
+@media (max-width: 360px) {  
     tr {
         background-color: #F1F1F1;
     }
-    
+}
+@media (max-width: 360px) { 
     td {
         padding: 15px;
-        font-size: 14px;
+        font-size: 15px;
     }
 }
