@@ -57,3 +57,9 @@
 h4 {
     padding: 7px 0;
 }
+
+@media screen and (max-width: 360px) {
+    .ContainerCard {
+        width: 320px;
+    }
+}

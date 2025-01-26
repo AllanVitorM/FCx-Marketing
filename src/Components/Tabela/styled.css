@@ -155,11 +155,11 @@ td,th {
 
 
     .Contato{
-        width: 50px;
-        height: 20px;
+        width: 60px;
+        height: 30px;
         border-radius: 8px;
         gap: 10px;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     tr {
