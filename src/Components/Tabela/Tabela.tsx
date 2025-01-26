@@ -22,6 +22,8 @@ const Tabela: React.FC<TabelaProps> = ({ Nomes }) => {
 
     const [ContatoSelecionado, setContatoSelecionado] = useState<Cliente | null>(null);
 
+    
+
     return(
         <>
         <div id='ContainerTabela'>
@@ -34,7 +36,8 @@ const Tabela: React.FC<TabelaProps> = ({ Nomes }) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {Nomes.map((item) => 
+                    {Nomes.length > 0 ? (
+                    Nomes.map((item) => 
                     <tr key={item.id}>
                         <td>{item.nome}</td>
                         <td>{item.categoria}</td>
@@ -42,6 +45,12 @@ const Tabela: React.FC<TabelaProps> = ({ Nomes }) => {
                             <button className="Contato" onClick={() => setContatoSelecionado(item)}>Contato</button> 
                         </td> 
                     </tr>
+                    )) : (
+                        <tr>
+                            <td colSpan={3} className='NenhumResultado'>
+                                Nenhum resultado encontrado
+                            </td>
+                        </tr>
                     )}
                 </tbody>
             </table>

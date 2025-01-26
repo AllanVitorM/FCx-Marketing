@@ -39,6 +39,14 @@
     gap: 10px;
 }
 
+.NenhumResultado {
+    text-align: center;
+    color: #000;
+    background-color: #F1F1F1;
+    font-style: italic;
+    padding: 20px;
+    width: 100%;
+}
 
 tr {
     background-color: #F1F1F1;
